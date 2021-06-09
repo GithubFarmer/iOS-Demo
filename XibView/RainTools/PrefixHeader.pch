@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  XibView
+//
+//  Created by Hibiscus on 2021/6/1.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//常量定义
+#import "RainHeader.h"
+//常用工具类定义
+#import "RainTools.h"
+//约束
+#import <Masonry/Masonry.h>
+
+#endif /* PrefixHeader_pch */

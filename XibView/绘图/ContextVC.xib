@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContextVC">
+            <connections>
+                <outlet property="bottomImv" destination="RRR-h1-0Ru" id="O0e-iu-4BI"/>
+                <outlet property="topImv" destination="uvm-Xt-WSP" id="fqz-My-fV2"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Ct1-y2-Gfv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uvm-Xt-WSP">
+                    <rect key="frame" x="29" y="183" width="354" height="167"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="167" id="WrX-lR-xi6"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RRR-h1-0Ru">
+                    <rect key="frame" x="30" y="425" width="354" height="167"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="167" id="EuK-pV-7o9"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="uvm-Xt-WSP" secondAttribute="trailing" constant="31" id="5ua-ho-zA3"/>
+                <constraint firstItem="RRR-h1-0Ru" firstAttribute="top" secondItem="uvm-Xt-WSP" secondAttribute="bottom" constant="75" id="E8l-z6-NlE"/>
+                <constraint firstItem="uvm-Xt-WSP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="29" id="LHV-eh-Div"/>
+                <constraint firstItem="uvm-Xt-WSP" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="139" id="dRa-4b-qpT"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="RRR-h1-0Ru" secondAttribute="trailing" constant="30" id="fCU-62-jTZ"/>
+                <constraint firstItem="RRR-h1-0Ru" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="yOo-zt-dqr"/>
+            </constraints>
+            <point key="canvasLocation" x="140.57971014492756" y="103.79464285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
