@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		352CF4FD3460A3505E7BB771 /* Pods_XibView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5AD52D9D9636841794A87C /* Pods_XibView.framework */; };
+		6003685E267C5B2200C21BCB /* PickViewTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003685C267C5B2200C21BCB /* PickViewTestVC.m */; };
+		6003685F267C5B2200C21BCB /* PickViewTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6003685D267C5B2200C21BCB /* PickViewTestVC.xib */; };
+		60036898267CA38600C21BCB /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60036897267CA38600C21BCB /* CloudKit.framework */; };
 		600B3F5A266603C20011C09A /* AAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 600B3F59266603C20011C09A /* AAView.m */; };
 		600B3F5F266603D00011C09A /* AAView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 600B3F5E266603D00011C09A /* AAView.xib */; };
 		600B3F67266609210011C09A /* RainTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 600B3F66266609210011C09A /* RainTools.m */; };
@@ -60,6 +63,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6003685B267C5B2200C21BCB /* PickViewTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickViewTestVC.h; sourceTree = "<group>"; };
+		6003685C267C5B2200C21BCB /* PickViewTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickViewTestVC.m; sourceTree = "<group>"; };
+		6003685D267C5B2200C21BCB /* PickViewTestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickViewTestVC.xib; sourceTree = "<group>"; };
+		60036893267CA37600C21BCB /* XibViewRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XibViewRelease.entitlements; sourceTree = "<group>"; };
+		60036897267CA38600C21BCB /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		600B3F58266603C20011C09A /* AAView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAView.h; sourceTree = "<group>"; };
 		600B3F59266603C20011C09A /* AAView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAView.m; sourceTree = "<group>"; };
 		600B3F5E266603D00011C09A /* AAView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AAView.xib; sourceTree = "<group>"; };
@@ -129,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				352CF4FD3460A3505E7BB771 /* Pods_XibView.framework in Frameworks */,
+				60036898267CA38600C21BCB /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +165,16 @@
 				82C7F4FED4E88FB1BB489A00 /* Pods-XibView.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6003685A267C5B0800C21BCB /* UIPickView的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				6003685B267C5B2200C21BCB /* PickViewTestVC.h */,
+				6003685C267C5B2200C21BCB /* PickViewTestVC.m */,
+				6003685D267C5B2200C21BCB /* PickViewTestVC.xib */,
+			);
+			path = "UIPickView的使用";
 			sourceTree = "<group>";
 		};
 		600B3F63266608BF0011C09A /* Xib的View运用 */ = {
@@ -224,6 +243,8 @@
 		60E6A7FB263956A90025018E /* XibView */ = {
 			isa = PBXGroup;
 			children = (
+				60036893267CA37600C21BCB /* XibViewRelease.entitlements */,
+				6003685A267C5B0800C21BCB /* UIPickView的使用 */,
 				60BFA0C6267086A4007CDF83 /* Others */,
 				60FFEFE22669F5C700DDF2DE /* 绘图 */,
 				600B3F64266608E80011C09A /* RainTools */,
@@ -299,6 +320,7 @@
 		F697708867B6AD3CBCC50878 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				60036897267CA38600C21BCB /* CloudKit.framework */,
 				8B5AD52D9D9636841794A87C /* Pods_XibView.framework */,
 			);
 			name = Frameworks;
@@ -421,6 +443,7 @@
 				60E6A807263956A90025018E /* Main.storyboard in Resources */,
 				60BFA0D7267086D8007CDF83 /* iCloudVC.xib in Resources */,
 				6030344B2668CCDB0024E407 /* BarChartVC.xib in Resources */,
+				6003685F267C5B2200C21BCB /* PickViewTestVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +520,7 @@
 				60E6A836263956C00025018E /* TestView.m in Sources */,
 				60FFEFF2266A0C4E00DDF2DE /* ContextView.m in Sources */,
 				6030342326687CAB0024E407 /* ConfigVC.m in Sources */,
+				6003685E267C5B2200C21BCB /* PickViewTestVC.m in Sources */,
 				600B3F67266609210011C09A /* RainTools.m in Sources */,
 				6030342926687D130024E407 /* ConfigView.m in Sources */,
 				60E6A80F263956AC0025018E /* main.m in Sources */,
@@ -679,6 +703,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K3L5U7QRY;
 				GCC_PREFIX_HEADER = /Users/ad/Desktop/XibView/XibView/RainTools/PrefixHeader.pch;
 				INFOPLIST_FILE = XibView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -701,14 +726,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = XibView/XibViewRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K3L5U7QRY;
 				GCC_PREFIX_HEADER = /Users/ad/Desktop/XibView/XibView/RainTools/PrefixHeader.pch;
 				INFOPLIST_FILE = XibView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.XibView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adinnet.XibView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "XibView/XibView-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

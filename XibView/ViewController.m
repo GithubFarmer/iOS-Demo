@@ -12,6 +12,7 @@
 #import "ContextVC.h"
 #import "ViewTransformImageVC.h"
 #import "iCloudVC.h"
+#import "PickViewTestVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -25,7 +26,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"小 demo";
-    array = @[@"xib的自定义view使用",@"app引导图",@"图表",@"绘制图片",@"view转化为image",@"打开pdf"];
+    array = @[@"xib的自定义view使用",@"app引导图",@"图表",@"绘制图片",@"view转化为image",@"打开pdf",@"pickView的使用"];
     UITableView *infoTab = [[UITableView alloc]init];
     infoTab.frame = CGRectMake(0, 0, kScreenWidth, kScreenHeight);
     infoTab.delegate = self;
@@ -60,6 +61,8 @@
         [self.navigationController pushViewController:[[ViewTransformImageVC alloc]init] animated:YES];
     }else if (indexPath.row == 5){
         [self.navigationController pushViewController:[[iCloudVC alloc]init] animated:YES];
+    }else if (indexPath.row == 6){
+        [self.navigationController pushViewController:[[PickViewTestVC alloc]init] animated:YES];
     }
 }
 

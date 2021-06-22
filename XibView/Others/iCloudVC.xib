@@ -29,6 +29,17 @@
                         <action selector="openiColud:" destination="-1" eventType="touchUpInside" id="17z-I7-iOX"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebl-pM-JZb">
+                    <rect key="frame" x="98" y="350" width="151" height="54"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="p7t-2H-ER3"/>
+                        <constraint firstAttribute="width" constant="151" id="tkW-xd-IXd"/>
+                    </constraints>
+                    <state key="normal" title="tabbar" image="素材tabbar">
+                        <color key="titleColor" red="0.30196078430000001" green="0.38823529410000002" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -36,11 +47,14 @@
                 <constraint firstItem="mtH-nF-7MA" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="201" id="0ez-0E-RPP"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="mtH-nF-7MA" secondAttribute="trailing" constant="80" id="Q36-hd-elA"/>
                 <constraint firstItem="mtH-nF-7MA" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="81" id="a7l-jQ-0WS"/>
+                <constraint firstItem="ebl-pM-JZb" firstAttribute="top" secondItem="mtH-nF-7MA" secondAttribute="bottom" constant="75" id="gQr-EW-eLY"/>
+                <constraint firstItem="ebl-pM-JZb" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="98" id="ksx-bJ-CoH"/>
             </constraints>
             <point key="canvasLocation" x="0.0" y="91.741071428571431"/>
         </view>
     </objects>
     <resources>
+        <image name="素材tabbar" width="24" height="24"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
