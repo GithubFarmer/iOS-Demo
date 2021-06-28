@@ -6,6 +6,7 @@
 //
 
 #import "ViewTransformImageVC.h"
+#import "weakObject.h"
 
 @interface ViewTransformImageVC ()
 @property (weak, nonatomic) IBOutlet UIView *backView;
@@ -19,6 +20,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     [self transformImage:self.viewImv.frame];
+    [weakObject eat];
+    weakObject *as = [[weakObject alloc]initWithTarget:self];
+    [as finishlog:@"nummm"];
+    RainTools *aa = [[RainTools alloc]init];
+    [aa aopTest];
 }
 
 - (void)transformImage:(CGRect)rect{

@@ -7,5 +7,6 @@ target 'XibView' do
 
  pod 'Charts'
  pod 'Masonry'
+ pod "Aspects"
 
 end

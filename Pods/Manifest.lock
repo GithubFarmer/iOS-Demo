@@ -1,22 +1,26 @@
 PODS:
+  - Aspects (1.4.1)
   - Charts (3.6.0):
     - Charts/Core (= 3.6.0)
   - Charts/Core (3.6.0)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
+  - Aspects
   - Charts
   - Masonry
 
 SPEC REPOS:
   trunk:
+    - Aspects
     - Charts
     - Masonry
 
 SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 3bcb728eba1d00ea354412215dc8ed9a32741f4e
+PODFILE CHECKSUM: 43598cfe72a3a99bbd2c94bd8b1338090dfae611
 
 COCOAPODS: 1.9.1

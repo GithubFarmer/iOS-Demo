@@ -60,6 +60,8 @@
         [url getResourceValue:&size forKey:NSURLFileSizeKey error:nil];
         CGFloat sizeCount = [size floatValue] /(1024.0*1024.0);
         NSLog(@"size is %fM === %fk",sizeCount,[size floatValue]);
+        
+        NSLog(@"data:%@",[NSData dataWithContentsOfURL:url]);
     }
 }
 

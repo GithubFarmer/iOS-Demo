@@ -7,6 +7,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "AOPObject.h"
 
 @interface AppDelegate ()
 
@@ -24,6 +25,7 @@
         self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
         [self.window makeKeyAndVisible];
     }
+//    [AOPObject createMethods];
     return YES;
 }
 

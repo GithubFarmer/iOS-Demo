@@ -48,6 +48,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if(indexPath.row == 0){
+        
         [self.navigationController pushViewController:[[XibViewController alloc]init] animated:YES];
     }else if (indexPath.row == 1){
         //scrollView布局方式
