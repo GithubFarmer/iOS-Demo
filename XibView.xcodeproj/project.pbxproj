@@ -20,10 +20,15 @@
 		6030344A2668CCDB0024E407 /* BarChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 603034482668CCDB0024E407 /* BarChartVC.m */; };
 		6030344B2668CCDB0024E407 /* BarChartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603034492668CCDB0024E407 /* BarChartVC.xib */; };
 		603034512668D6650024E407 /* xFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 603034502668D6650024E407 /* xFormat.m */; };
+		603D75772692E24900B31901 /* PDFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D75762692E24900B31901 /* PDFObject.m */; };
+		603D75982692EBAC00B31901 /* CMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D75972692EBAC00B31901 /* CMManager.m */; };
 		60BFA0D6267086D8007CDF83 /* iCloudVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BFA0D4267086D8007CDF83 /* iCloudVC.m */; };
 		60BFA0D7267086D8007CDF83 /* iCloudVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60BFA0D5267086D8007CDF83 /* iCloudVC.xib */; };
 		60CFC24C266DE156007FAB37 /* ViewTransformImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CFC24A266DE156007FAB37 /* ViewTransformImageVC.m */; };
 		60CFC24D266DE156007FAB37 /* ViewTransformImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60CFC24B266DE156007FAB37 /* ViewTransformImageVC.xib */; };
+		60DAFCFD26A024CF00DF0FCB /* GenerateViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DAFCFC26A024CF00DF0FCB /* GenerateViewVC.m */; };
+		60DAFD1A26A026BD00DF0FCB /* GenerateViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DAFD1926A026BD00DF0FCB /* GenerateViewVC.m */; };
+		60DAFD1F26A026E700DF0FCB /* GenerateViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60DAFD1E26A026E700DF0FCB /* GenerateViewVC.xib */; };
 		60E6642C2682E42C00F865EE /* weakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E6642B2682E42C00F865EE /* weakObject.m */; };
 		60E664322682FBE200F865EE /* AOPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E664312682FBE200F865EE /* AOPObject.m */; };
 		60E664382683000000F865EE /* NSObject+RainExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E664372683000000F865EE /* NSObject+RainExtend.m */; };
@@ -89,12 +94,22 @@
 		603034492668CCDB0024E407 /* BarChartVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BarChartVC.xib; sourceTree = "<group>"; };
 		6030344F2668D6650024E407 /* xFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xFormat.h; sourceTree = "<group>"; };
 		603034502668D6650024E407 /* xFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xFormat.m; sourceTree = "<group>"; };
+		603D75752692E24900B31901 /* PDFObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFObject.h; sourceTree = "<group>"; };
+		603D75762692E24900B31901 /* PDFObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFObject.m; sourceTree = "<group>"; };
+		603D75962692EBAC00B31901 /* CMManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CMManager.h; path = "/Users/ad/Desktop/XibView/XibView/网络pdf文件展示/CMManager.h"; sourceTree = "<absolute>"; };
+		603D75972692EBAC00B31901 /* CMManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CMManager.m; path = "/Users/ad/Desktop/XibView/XibView/网络pdf文件展示/CMManager.m"; sourceTree = "<absolute>"; };
 		60BFA0D3267086D8007CDF83 /* iCloudVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCloudVC.h; sourceTree = "<group>"; };
 		60BFA0D4267086D8007CDF83 /* iCloudVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCloudVC.m; sourceTree = "<group>"; };
 		60BFA0D5267086D8007CDF83 /* iCloudVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iCloudVC.xib; sourceTree = "<group>"; };
 		60CFC249266DE156007FAB37 /* ViewTransformImageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewTransformImageVC.h; sourceTree = "<group>"; };
 		60CFC24A266DE156007FAB37 /* ViewTransformImageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTransformImageVC.m; sourceTree = "<group>"; };
 		60CFC24B266DE156007FAB37 /* ViewTransformImageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewTransformImageVC.xib; sourceTree = "<group>"; };
+		60DAFCF726A0247800DF0FCB /* SingletonTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonTemplate.h; sourceTree = "<group>"; };
+		60DAFCFB26A024CF00DF0FCB /* GenerateViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerateViewVC.h; sourceTree = "<group>"; };
+		60DAFCFC26A024CF00DF0FCB /* GenerateViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateViewVC.m; sourceTree = "<group>"; };
+		60DAFD1726A026A900DF0FCB /* GenerateViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateViewVC.h; sourceTree = "<group>"; };
+		60DAFD1926A026BD00DF0FCB /* GenerateViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateViewVC.m; sourceTree = "<group>"; };
+		60DAFD1E26A026E700DF0FCB /* GenerateViewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenerateViewVC.xib; sourceTree = "<group>"; };
 		60E6642A2682E42C00F865EE /* weakObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = weakObject.h; sourceTree = "<group>"; };
 		60E6642B2682E42C00F865EE /* weakObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weakObject.m; sourceTree = "<group>"; };
 		60E664302682FBE200F865EE /* AOPObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOPObject.h; sourceTree = "<group>"; };
@@ -219,6 +234,18 @@
 			path = RainTools;
 			sourceTree = "<group>";
 		};
+		603D75742692E21D00B31901 /* 网络pdf文件展示 */ = {
+			isa = PBXGroup;
+			children = (
+				60DAFCF726A0247800DF0FCB /* SingletonTemplate.h */,
+				603D75962692EBAC00B31901 /* CMManager.h */,
+				603D75972692EBAC00B31901 /* CMManager.m */,
+				603D75752692E24900B31901 /* PDFObject.h */,
+				603D75762692E24900B31901 /* PDFObject.m */,
+			);
+			path = "网络pdf文件展示";
+			sourceTree = "<group>";
+		};
 		60BFA0C6267086A4007CDF83 /* Others */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +292,7 @@
 		60E6A7FB263956A90025018E /* XibView */ = {
 			isa = PBXGroup;
 			children = (
+				603D75742692E21D00B31901 /* 网络pdf文件展示 */,
 				60E664292682E41A00F865EE /* 循环引用，中间类的使用 */,
 				60036893267CA37600C21BCB /* XibViewRelease.entitlements */,
 				6003685A267C5B0800C21BCB /* UIPickView的使用 */,
@@ -333,9 +361,14 @@
 				60FFEFEB2669F87900DDF2DE /* ContextVC.xib */,
 				60FFEFF0266A0C4E00DDF2DE /* ContextView.h */,
 				60FFEFF1266A0C4E00DDF2DE /* ContextView.m */,
+				60DAFD1726A026A900DF0FCB /* GenerateViewVC.h */,
+				60DAFD1926A026BD00DF0FCB /* GenerateViewVC.m */,
 				60CFC249266DE156007FAB37 /* ViewTransformImageVC.h */,
 				60CFC24A266DE156007FAB37 /* ViewTransformImageVC.m */,
 				60CFC24B266DE156007FAB37 /* ViewTransformImageVC.xib */,
+				60DAFCFB26A024CF00DF0FCB /* GenerateViewVC.h */,
+				60DAFCFC26A024CF00DF0FCB /* GenerateViewVC.m */,
+				60DAFD1E26A026E700DF0FCB /* GenerateViewVC.xib */,
 			);
 			path = "绘图";
 			sourceTree = "<group>";
@@ -464,6 +497,7 @@
 				60FFEFEC2669F87900DDF2DE /* ContextVC.xib in Resources */,
 				600B3F5F266603D00011C09A /* AAView.xib in Resources */,
 				60E6A807263956A90025018E /* Main.storyboard in Resources */,
+				60DAFD1F26A026E700DF0FCB /* GenerateViewVC.xib in Resources */,
 				60BFA0D7267086D8007CDF83 /* iCloudVC.xib in Resources */,
 				6030344B2668CCDB0024E407 /* BarChartVC.xib in Resources */,
 				6003685F267C5B2200C21BCB /* PickViewTestVC.xib in Resources */,
@@ -534,6 +568,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				600B3F73266609C40011C09A /* XibViewController.m in Sources */,
+				603D75982692EBAC00B31901 /* CMManager.m in Sources */,
 				60E6A804263956A90025018E /* ViewController.m in Sources */,
 				60E6A7FE263956A90025018E /* AppDelegate.m in Sources */,
 				60F42DB8266758400088F052 /* LeadVC.m in Sources */,
@@ -542,8 +577,10 @@
 				60FFEFDE2669F5B800DDF2DE /* ContextVC.m in Sources */,
 				60E6A836263956C00025018E /* TestView.m in Sources */,
 				60FFEFF2266A0C4E00DDF2DE /* ContextView.m in Sources */,
+				60DAFCFD26A024CF00DF0FCB /* GenerateViewVC.m in Sources */,
 				60E664382683000000F865EE /* NSObject+RainExtend.m in Sources */,
 				6030342326687CAB0024E407 /* ConfigVC.m in Sources */,
+				603D75772692E24900B31901 /* PDFObject.m in Sources */,
 				6003685E267C5B2200C21BCB /* PickViewTestVC.m in Sources */,
 				600B3F67266609210011C09A /* RainTools.m in Sources */,
 				60E664322682FBE200F865EE /* AOPObject.m in Sources */,
@@ -552,6 +589,7 @@
 				60E6642C2682E42C00F865EE /* weakObject.m in Sources */,
 				60CFC24C266DE156007FAB37 /* ViewTransformImageVC.m in Sources */,
 				60E6A801263956A90025018E /* SceneDelegate.m in Sources */,
+				60DAFD1A26A026BD00DF0FCB /* GenerateViewVC.m in Sources */,
 				6030344A2668CCDB0024E407 /* BarChartVC.m in Sources */,
 				60BFA0D6267086D8007CDF83 /* iCloudVC.m in Sources */,
 				60F42DE826677BC30088F052 /* ChartsViewController.m in Sources */,
