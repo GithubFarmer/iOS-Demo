@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		352CF4FD3460A3505E7BB771 /* Pods_XibView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5AD52D9D9636841794A87C /* Pods_XibView.framework */; };
+		36DDFD5426B4DAD4000F92A3 /* CMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DDFD5326B4DAD4000F92A3 /* CMManager.m */; };
 		6003685E267C5B2200C21BCB /* PickViewTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003685C267C5B2200C21BCB /* PickViewTestVC.m */; };
 		6003685F267C5B2200C21BCB /* PickViewTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6003685D267C5B2200C21BCB /* PickViewTestVC.xib */; };
 		60036898267CA38600C21BCB /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60036897267CA38600C21BCB /* CloudKit.framework */; };
@@ -21,7 +22,6 @@
 		6030344B2668CCDB0024E407 /* BarChartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603034492668CCDB0024E407 /* BarChartVC.xib */; };
 		603034512668D6650024E407 /* xFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 603034502668D6650024E407 /* xFormat.m */; };
 		603D75772692E24900B31901 /* PDFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D75762692E24900B31901 /* PDFObject.m */; };
-		603D75982692EBAC00B31901 /* CMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D75972692EBAC00B31901 /* CMManager.m */; };
 		60BFA0D6267086D8007CDF83 /* iCloudVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BFA0D4267086D8007CDF83 /* iCloudVC.m */; };
 		60BFA0D7267086D8007CDF83 /* iCloudVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60BFA0D5267086D8007CDF83 /* iCloudVC.xib */; };
 		60CFC24C266DE156007FAB37 /* ViewTransformImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CFC24A266DE156007FAB37 /* ViewTransformImageVC.m */; };
@@ -71,6 +71,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36DDFD5226B4DAD4000F92A3 /* CMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMManager.h; sourceTree = "<group>"; };
+		36DDFD5326B4DAD4000F92A3 /* CMManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMManager.m; sourceTree = "<group>"; };
 		6003685B267C5B2200C21BCB /* PickViewTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickViewTestVC.h; sourceTree = "<group>"; };
 		6003685C267C5B2200C21BCB /* PickViewTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickViewTestVC.m; sourceTree = "<group>"; };
 		6003685D267C5B2200C21BCB /* PickViewTestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickViewTestVC.xib; sourceTree = "<group>"; };
@@ -96,8 +98,6 @@
 		603034502668D6650024E407 /* xFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xFormat.m; sourceTree = "<group>"; };
 		603D75752692E24900B31901 /* PDFObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFObject.h; sourceTree = "<group>"; };
 		603D75762692E24900B31901 /* PDFObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFObject.m; sourceTree = "<group>"; };
-		603D75962692EBAC00B31901 /* CMManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CMManager.h; path = "/Users/ad/Desktop/XibView/XibView/网络pdf文件展示/CMManager.h"; sourceTree = "<absolute>"; };
-		603D75972692EBAC00B31901 /* CMManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CMManager.m; path = "/Users/ad/Desktop/XibView/XibView/网络pdf文件展示/CMManager.m"; sourceTree = "<absolute>"; };
 		60BFA0D3267086D8007CDF83 /* iCloudVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCloudVC.h; sourceTree = "<group>"; };
 		60BFA0D4267086D8007CDF83 /* iCloudVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCloudVC.m; sourceTree = "<group>"; };
 		60BFA0D5267086D8007CDF83 /* iCloudVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iCloudVC.xib; sourceTree = "<group>"; };
@@ -238,8 +238,8 @@
 			isa = PBXGroup;
 			children = (
 				60DAFCF726A0247800DF0FCB /* SingletonTemplate.h */,
-				603D75962692EBAC00B31901 /* CMManager.h */,
-				603D75972692EBAC00B31901 /* CMManager.m */,
+				36DDFD5226B4DAD4000F92A3 /* CMManager.h */,
+				36DDFD5326B4DAD4000F92A3 /* CMManager.m */,
 				603D75752692E24900B31901 /* PDFObject.h */,
 				603D75762692E24900B31901 /* PDFObject.m */,
 			);
@@ -568,7 +568,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				600B3F73266609C40011C09A /* XibViewController.m in Sources */,
-				603D75982692EBAC00B31901 /* CMManager.m in Sources */,
 				60E6A804263956A90025018E /* ViewController.m in Sources */,
 				60E6A7FE263956A90025018E /* AppDelegate.m in Sources */,
 				60F42DB8266758400088F052 /* LeadVC.m in Sources */,
@@ -592,6 +591,7 @@
 				60DAFD1A26A026BD00DF0FCB /* GenerateViewVC.m in Sources */,
 				6030344A2668CCDB0024E407 /* BarChartVC.m in Sources */,
 				60BFA0D6267086D8007CDF83 /* iCloudVC.m in Sources */,
+				36DDFD5426B4DAD4000F92A3 /* CMManager.m in Sources */,
 				60F42DE826677BC30088F052 /* ChartsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
