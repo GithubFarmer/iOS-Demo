@@ -730,7 +730,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3K3L5U7QRY;
-				GCC_PREFIX_HEADER = /Users/ad/Desktop/XibView/XibView/RainTools/PrefixHeader.pch;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "/Users/rainy/Desktop/iOS-Demo/XibView/RainTools/PrefixHeader.pch";
 				INFOPLIST_FILE = XibView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -755,7 +756,7 @@
 				CODE_SIGN_ENTITLEMENTS = XibView/XibViewRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3K3L5U7QRY;
-				GCC_PREFIX_HEADER = /Users/ad/Desktop/XibView/XibView/RainTools/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "/Users/rainy/Desktop/iOS-Demo/XibView/RainTools/PrefixHeader.pch";
 				INFOPLIST_FILE = XibView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
