@@ -24,6 +24,24 @@
     [self.view addSubview:back];
     back.backgroundColor = [UIColor redColor];
     [back addTarget:self action:@selector(backBtn) forControlEvents:UIControlEventTouchUpInside];
+    [self semaphore];
+}
+ 
+
+- (void)semaphore {
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    // 设定信号量 需要有几条线程
+    dispatch_semaphore_t sem = dispatch_semaphore_create(0);
+    dispatch_async(queue, ^{
+        NSLog(@"22212222");
+        // 信号量 +1 向下执行
+        dispatch_semaphore_signal(sem);
+    });
+    // 信号量 -1 线程休眠 如果信号量 >0 线程继续向下执行
+    dispatch_semaphore_wait(sem, DISPATCH_TIME_FOREVER);
+    NSLog(@"cccccccccccccc");
+    
+    
 }
 
 - (void)backBtn{

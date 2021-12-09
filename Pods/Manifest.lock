@@ -4,23 +4,31 @@ PODS:
     - Charts/Core (= 3.6.0)
   - Charts/Core (3.6.0)
   - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - Aspects
   - Charts
   - Masonry
+  - MBProgressHUD
+  - YYModel
 
 SPEC REPOS:
   trunk:
     - Aspects
     - Charts
     - Masonry
+    - MBProgressHUD
+    - YYModel
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: f99982f54fea48c303e2a538efbf4f55e6398cab
+PODFILE CHECKSUM: 10f29f7adad94d452431a1327083721fbaa39afd
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

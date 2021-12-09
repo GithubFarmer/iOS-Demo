@@ -8,13 +8,30 @@
 #import "ContextVC.h"
 #import "ContextView.h"
 
+static NSString *name = @"";
+
 @interface ContextVC ()
 @property (weak, nonatomic) IBOutlet UIImageView *topImv;
 @property (weak, nonatomic) IBOutlet UIImageView *bottomImv;
 
+@property (nonatomic, assign) NSInteger initNumber;
+@property (nonatomic, copy) NSString *iInitString;
+
 @end
 
 @implementation ContextVC
+
+//+ (void)load {
+//    printf("我是load方法");
+//}
+
++ (void)initialize{
+    printf("***********我是initialize方法");
+    name = @"111111119999999999";
+    
+}
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -32,6 +49,7 @@
         make.left.mas_equalTo(30);
         make.size.mas_equalTo(CGSizeMake(200, 50));
     }];
+    NSLog(@"%@", name);
 }
 
 //MARK: 平移图片

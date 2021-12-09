@@ -15,6 +15,7 @@
 #import "PickViewTestVC.h"
 #import "GenerateViewVC.h"
 
+
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @end
@@ -34,6 +35,7 @@
     infoTab.dataSource = self;
     [self.view addSubview:infoTab];
     [infoTab registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    
 }
 
 //MARK:----UITableViewDelegate, UITableViewDataSource

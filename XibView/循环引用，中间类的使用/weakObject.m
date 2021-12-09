@@ -24,12 +24,15 @@
     NSLog(@"===222222==%@",num);
 }
 
+/// 对象重定向
 - (void)forwardInvocation:(NSInvocation *)anInvocation{
 //    [super forwardInvocation:anInvocation];
 //    [self.target forwardInvocation:anInvocation];
     [anInvocation invokeWithTarget:self.target];
 }
 
+
+/// 实现方法
 -(NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector{
     return [self.target methodSignatureForSelector:aSelector];
 }

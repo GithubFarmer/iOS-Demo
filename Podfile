@@ -8,6 +8,9 @@ target 'XibView' do
  pod 'Charts'
  pod 'Masonry'
  pod "Aspects"
+ pod "YYModel"
+# pod "RainTextfield"
+ pod "MBProgressHUD"
 
  post_install do |installer|
     installer.pods_project.targets.each do |target|
